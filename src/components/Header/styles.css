@@ -1,0 +1,25 @@
+.header {
+  overflow: hidden;
+  background-color: #1214;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #242424;
+}
+
+.header a {
+  font-size: 1.5rem;
+  padding: 12px 23px;
+  background-color: #121214;
+}
+
+.header p.active {
+  padding: 12px 23px;
+  background-color: #9466ff;
+  border: 1px solid #121214;
+  color: #fff;
+}
+
+.header-right {
+  float: right;
+}
